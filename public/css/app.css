@@ -5,8 +5,9 @@
 }
 
 .container {
-  max-width: 100%;
-  margin: auto;
+  width: 100%;
+  max-width: 2000px;
+  margin: 0 auto;
 }
 
 a {
@@ -65,4 +66,9 @@ header, .jumboUp {
   background-size: cover;
   background-repeat: no-repeat;
   height: 270px;
+}
+
+.containerMain {
+  background: chocolate;
+  height: 50px;
 }
