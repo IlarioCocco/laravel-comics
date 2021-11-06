@@ -1,0 +1,54 @@
+.lineBluHeader {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: rgb(46, 115, 241);
+    padding: 5px;
+    color: white;
+    font-size: 5px;
+    text-transform: uppercase;
+}
+
+.textUpDc {
+    padding-right: 200px;
+    padding-left: 30px;
+}
+
+
+//logo
+.logoDc {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 70px;
+}
+
+.headerWhite {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+.listato, li {
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+header, .jumboUp {
+    background-image: url("../images/jumbotron.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 270px;
+}
