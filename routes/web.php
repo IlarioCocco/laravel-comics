@@ -17,7 +17,7 @@ Route::get('/', function () {
     $data = config("comics");
 
     // dd($data);
-    dump($data);
+    // dump($data);
 
 
     return view('index');
