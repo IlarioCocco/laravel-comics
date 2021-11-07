@@ -10,17 +10,8 @@
 }
 
 .textUpDc {
-    padding-right: 200px;
     padding-left: 30px;
-}
-
-
-//logo
-.logoDc {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    width: 70px;
+    margin-right: 100px;
 }
 
 .headerWhite {
@@ -30,6 +21,15 @@
     background-color: rgb(255, 255, 255);
     font-size: 15px;
 }
+
+//logo
+.logoDc {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 70px;
+}
+
 
 .listato, li {
     padding-left: 30px;
@@ -42,7 +42,7 @@
 .search {
     display: flex;
     align-items: center;
-    padding-left: 120px;
+    padding-left: 50px;
 }
 
 header,

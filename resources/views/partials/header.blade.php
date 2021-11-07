@@ -1,6 +1,6 @@
 <header>
     <div class="container">
-        <div class="lineBluHeader">
+        <div class="lineBluHeader box">
             <h4>dc power<span>sm</span>visa</h4>
             <h4 class="textUpDc">additional dc sites</h4>
         </div>

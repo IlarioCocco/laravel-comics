@@ -1,21 +1,19 @@
 @extends('layout.base')
 
 
-@section('title')
+{{-- section del --}}
+
+{{-- @section('title')
   Home Page laravel Comics
-@endsection()
+@endsection --}}
+
+{{-- shortcut idem view up --}}
+@section('title', 'Home Page laravel Comics')
+  
 
 
 
-
-
-
-
-
-
-{{-- 
-section del main --}}
-
+{{-- section del main --}}
 @section('pageContent')
 
  <main>
