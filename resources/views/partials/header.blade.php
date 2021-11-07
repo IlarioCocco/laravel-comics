@@ -19,6 +19,5 @@
             </ul>
             <h5 class="search">Search</h5>
         </div>
-    </div>
     <div class="jumboUp"></div>
 </header>

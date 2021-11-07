@@ -3,7 +3,7 @@
         <div class="box">
             <div class="footerBlu">
             <div class="loghiSmart">
-                <img class="loghiSmart" src="{{asset("images/buy-comics-digital-comics.png")}}" alt="">
+                <img class="loghiSmart smartSmall" src="{{asset("images/buy-comics-digital-comics.png")}}" alt="">
                 <h4 class="textSmart">prova footer</h4>
             </div>
             <div class="loghiSmart">
@@ -15,7 +15,7 @@
                <h4 class="textSmart">prova footer</h4>
             </div>
             <div class="loghiSmart">
-                <img class="loghiSmart" src="{{asset("images/buy-comics-shop-locator.png")}}" alt="">
+                <img class="loghiSmart smartSmall" src="{{asset("images/buy-comics-shop-locator.png")}}" alt="">
                <h4 class="textSmart">prova footer</h4>
             </div>
             <div class="loghiSmart">
