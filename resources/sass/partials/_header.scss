@@ -45,10 +45,13 @@
     padding-left: 120px;
 }
 
-header, .jumboUp {
+header,
+.jumboUp {
     background-image: url("../images/jumbotron.jpg");
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     height: 270px;
+    z-index: 1;
+    position: relative;
 }
