@@ -78,8 +78,13 @@ header,
 }
 
 .containerMain {
-  background: chocolate;
-  height: 50px;
+  background: #313131;
+  color: white;
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+  text-align: center;
 }
 
 .footerBlu {
@@ -90,7 +95,6 @@ header,
   font-size: 10px;
   color: white;
   padding: 40px;
-  margin-top: 85px;
   z-index: 1;
   position: relative;
   text-transform: uppercase;
