@@ -9,8 +9,6 @@
 
 {{-- shortcut idem view up --}}
 @section('title', 'Home Page laravel Comics')
-  
-
 
 
 {{-- section del main --}}
@@ -19,20 +17,13 @@
  <main>
      <div class="containerMain">
         <div class="boxDue">
-            {{-- <h3>Prova</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsa debitis,
-                impedit nemo reiciendis eaque dolorem hic modi.
-                Natus possimus magni sunt nam omnis reprehenderit ad beatae odit doloribus! Quia! --}}
             @foreach ($comics as $comic)
-
             <div class="imaginiAlbum">
                 <img class="album" src="{{$comic["thumb"]}}" alt="imagine album">
-                <h3 class="titolo">{{$comic["series"]}}</h3>
+                <h3 class="titolo titoloDue">{{$comic["series"]}}</h3>
             </div>
-                
             @endforeach
-            {{-- @add($comics) --}}
-            {{-- </p> --}}
+            {{-- @dd($comics) --}}
         </div>
      </div>
  </main>
