@@ -17,7 +17,7 @@
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 270px;
+    height: 300px;
     color: grey;
     display: flex;
     justify-content: space-evenly;
@@ -26,6 +26,7 @@
 
 .logoDcDown {
     width: 30%;
+    
 }
 
 .loghiSmart{
@@ -54,7 +55,6 @@
     z-index: 1;
     position: relative;
     text-transform: uppercase;
-    
 }
 
 .signButton {
@@ -65,7 +65,6 @@
     color: white;
     font-weight: bold;
 }
-
 
 .iconSocial {
     display: flex;
