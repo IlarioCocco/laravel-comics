@@ -7,7 +7,7 @@
         <div class="headerWhite">
             <img class="logoDc" src="{{asset("images/dc-logo.png")}}" alt="logo Dc Comics">
             <ul class="listato">
-                <li><a href="#">charaters</a></li>
+                <li><a href="{{route("charaters")}}">charaters</a></li>
                 <li><a href="#">comics</a></li>
                 <li><a href="#">movies</a></li>
                 <li><a href="#">tv</a></li>

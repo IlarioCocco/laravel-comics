@@ -13,12 +13,31 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Route::get('/', function () {
+//     $data = config("comics");
+//     // dd($data);
+//     // dump($data);
+//     return view ('index', ["comics" => $data]);
+// });
+
+
+
+// another solution with a more step 
+
 Route::get('/', function () {
     $data = config("comics");
-    // dd($data);
-    // dump($data);
-    return view('index');
-})->name("index");
+    $comics = ["comics" => $data];
+    // dd($comics);
+    // dump($comics);
+
+    return view('index', $comics);
+});
+
+
+
+Route::get('/charaters', function () {
+    return view('charaters');
+})->name("charaters");
 
   
 

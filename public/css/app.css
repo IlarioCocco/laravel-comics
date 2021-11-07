@@ -1,14 +1,18 @@
-* {
+@import url(https: //fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap);* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
 }
 
 .container {
   width: 100%;
   max-width: 2000px;
   margin: 0 auto;
-  background-color: #007fc9;
+  background-color: #2e73f1;
 }
 
 .box {
@@ -43,6 +47,7 @@ a {
   justify-content: center;
   background-color: white;
   font-size: 15px;
+  font-weight: bold;
 }
 
 .logoDc {
@@ -64,6 +69,7 @@ a {
   display: flex;
   align-items: center;
   padding-left: 50px;
+  font-size: 10px;
 }
 
 header,
@@ -78,20 +84,46 @@ header,
 }
 
 .containerMain {
-  background: #313131;
+  background: #1f1f1f;
   color: white;
-  padding: 100px;
+  padding: 60px;
   display: flex;
   align-items: center;
   margin-top: 80px;
   text-align: center;
 }
 
+.boxDue {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.imaginiAlbum {
+  width: calc(20% - 40px);
+}
+
+.album {
+  width: 80%;
+  height: 70%;
+}
+
+.titolo {
+  padding: 5px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 8px;
+  max-width: 100px;
+  text-align: left;
+}
+
 .footerBlu {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #007fc9;
+  background-color: #2e73f1;
   font-size: 10px;
   color: white;
   padding: 40px;
