@@ -1,8 +1,8 @@
 .footerBlu {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    background-color: rgb(46, 115, 241);
+    background-color: #0282f9;
     font-size: 10px;
     color: white;
     padding: 30px;
@@ -25,22 +25,20 @@
 
 .logoDcDown {
     width: 30%;
-    
 }
 
 .loghiSmart{
-    width: 30px;
-    display: flex;
-    align-items: center;
+    width: 35px;
 }
 
 .smartSmall{
-    width: 23px;
+    width: 24px;
 }
 
 .textSmart{
+    font-size: 8px;
+    padding-right: 40px;
     padding-left: 10px;
-    font-size: 5px;
 }
 
 .liste{
@@ -50,9 +48,9 @@
 .footerGrey{
     display: flex;
     justify-content: space-around;
-    background-color: rgb(61, 61, 61);
+    background-color: #303030;
     font-size: 15px;
-    color: rgb(0, 114, 237);
+    color: #0282f9;
     padding: 15px;
     z-index: 1;
     position: relative;
@@ -61,7 +59,7 @@
 
 .signButton {
     display: flex;
-    border: 1px solid rgb(0, 102, 255);
+    border: 1px solid #0282f9;
     padding: 10px;
     background: rgb(49, 49, 49);
     color: white;

@@ -19,5 +19,7 @@
             </ul>
             <h5 class="search">Search</h5>
         </div>
+        <button class="current">current series</button>
     <div class="jumboUp"></div>
+    
 </header>

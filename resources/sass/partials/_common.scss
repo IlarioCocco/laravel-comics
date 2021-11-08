@@ -1,8 +1,11 @@
 // font
-@import url('https: //fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto+Condensed&display=swap');
 
 body {
-   font-family: 'Montserrat', sans-serif;
+   font-family: 'Montserrat',
+   sans-serif;
+   font-family: 'Roboto Condensed',
+   sans-serif;
 }
 // font
 
@@ -11,11 +14,11 @@ body {
     width: 100%;
     max-width: 2000px;
     margin:0 auto;
-    background-color: rgb(46, 115, 241);
+    background-color: #0282f9;
 }
 
 .box {
-    width: 80%;
+    width: 70%;
     margin: auto;
     // border: 1px solid rgb(255, 255, 255);
 }

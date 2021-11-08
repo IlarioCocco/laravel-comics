@@ -24,6 +24,10 @@
             </div>
             @endforeach
             {{-- @dd($comics) --}}
+             
+        </div>
+        <div >
+            <button class="current load">load more</button>
         </div>
      </div>
  </main>

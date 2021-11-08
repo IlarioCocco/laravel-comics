@@ -4,27 +4,30 @@
             <div class="footerBlu">
             <div class="loghiSmart">
                 <img class="loghiSmart smartSmall" src="{{asset("images/buy-comics-digital-comics.png")}}" alt="">
-                <h4 class="textSmart">prova footer</h4>
             </div>
+                <p class="textSmart">digital comics</p>
+
             <div class="loghiSmart">
                 <img class="loghiSmart" src="{{asset("images/buy-comics-merchandise.png")}}" alt="">
-                <h4 class="textSmart">prova footer</h4>
             </div>
+                <p class="textSmart">prova footer</p>
+
             <div class="loghiSmart">
                 <img class="loghiSmart" src="{{asset("images/buy-comics-subscriptions.png")}}" alt="">
-               <h4 class="textSmart">prova footer</h4>
             </div>
+                <p class="textSmart">prova footer</p>
+
             <div class="loghiSmart">
                 <img class="loghiSmart smartSmall" src="{{asset("images/buy-comics-shop-locator.png")}}" alt="">
-               <h4 class="textSmart">prova footer</h4>
             </div>
+                <p class="textSmart">prova footer</p>
+
             <div class="loghiSmart">
                 <img class="loghiSmart" src="{{asset("images/buy-dc-power-visa.svg")}}" alt="">
-               <h4 class="textSmart">prova footer</h4>
             </div>
+                <p class="textSmart">prova footer</p>
         </div>
     </div>
-
 
     <div class="jumboDown">
         <div class="liste">
@@ -54,7 +57,6 @@
                 <li>saeaseat</li>
                 <li>saeaseat</li>
             </ul>
-
         </div>
         <img class="logoDcDown"src="../images/dc-logo-bg.png" alt="">
     </div>
