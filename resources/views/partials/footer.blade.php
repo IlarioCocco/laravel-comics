@@ -32,25 +32,28 @@
     <div class="jumboDown">
         <div class="liste">
             <ul>
-                <li><span>titolo</span></li>
+                <li><span>dc comics</span></li>
+                <li>saeaseat</li>
+                <li>saeaseat</li>
+                <li>saeaseat</li>
+                <li>saeaseat</li>
+                <li>saeaseat</li>
+                <ul>
+                    <li><span>shop</span></li>
+                    <li>saeaseat</li>
+                    <li>saeaseat</li>
+                </ul>
+            </ul>
+            <ul>
+                <li><span>dc</span></li>
                 <li>saeaseat</li>
                 <li>saeaseat</li>
                 <li>saeaseat</li>
                 <li>saeaseat</li>
                 <li>saeaseat</li>
             </ul>
-           
             <ul>
-                <li><span>titolo</span></li>
-                <li>saeaseat</li>
-                <li>saeaseat</li>
-                <li>saeaseat</li>
-                <li>saeaseat</li>
-                <li>saeaseat</li>
-            </ul>
-        
-            <ul>
-                <li><span>titolo</span></li>
+                <li><span>site</span></li>
                 <li>saeaseat</li>
                 <li>saeaseat</li>
                 <li>saeaseat</li>
@@ -62,10 +65,8 @@
     </div>
 
     <div class="container">
-      
         <div class="footerGrey">
             <button class="signButton">SIGN-UP NOW!</button>
-
             <div class="iconSocial">
                 <h4>follow us</h4>
                 <img class="loghiSmart iconSocial" src="{{asset("images/footer-facebook.png")}}" alt="">
