@@ -1,5 +1,5 @@
 <footer>
-    <div class="container">
+    {{-- <div class="container">
         <div class="box">
             <div class="footerBlu">
             <div class="loghiSmart">
@@ -27,7 +27,7 @@
             </div>
                 <p class="textSmart">prova footer</p>
         </div>
-    </div>
+    </div> --}}
 
     <div class="jumboDown">
         <div class="liste">

@@ -20,7 +20,7 @@
             @foreach ($comics as $comic)
             <div class="imaginiAlbum">
                 <img class="album" src="{{$comic["thumb"]}}" alt="imagine album">
-                <h3 class="titolo titoloDue">{{$comic["series"]}}</h3>
+                <h3 class="titolo">{{$comic["series"]}}</h3>
             </div>
             @endforeach
             {{-- @dd($comics) --}}
@@ -30,7 +30,39 @@
             <button class="current load">load more</button>
         </div>
      </div>
- </main>
 
+     {{-- importato dal footer --}}
+     <div class="container">
+        <div class="box">
+            <div class="footerBlu">
+            <div class="loghiSmart">
+                <img class="loghiSmart smartSmall" src="{{asset("images/buy-comics-digital-comics.png")}}" alt="">
+            </div>
+                <p class="textSmart">digital comics</p>
+
+            <div class="loghiSmart">
+                <img class="loghiSmart" src="{{asset("images/buy-comics-merchandise.png")}}" alt="">
+            </div>
+                <p class="textSmart">prova footer</p>
+
+            <div class="loghiSmart">
+                <img class="loghiSmart" src="{{asset("images/buy-comics-subscriptions.png")}}" alt="">
+            </div>
+                <p class="textSmart">prova footer</p>
+
+            <div class="loghiSmart">
+                <img class="loghiSmart smartSmall" src="{{asset("images/buy-comics-shop-locator.png")}}" alt="">
+            </div>
+                <p class="textSmart">prova footer</p>
+
+            <div class="loghiSmart">
+                <img class="loghiSmart" src="{{asset("images/buy-dc-power-visa.svg")}}" alt="">
+            </div>
+                <p class="textSmart">prova footer</p>
+        </div>
+    </div>
+
+
+ </main>
 @endsection
 
